@@ -1,17 +1,12 @@
-//
-//  ineedApp.swift
-//  ineed
-//
-//  Created by Bryan Cuadrado on 11/03/23.
-//
-
 import SwiftUI
 
 @main
 struct ineedApp: App {
+    @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreenView()
         }
     }
 }

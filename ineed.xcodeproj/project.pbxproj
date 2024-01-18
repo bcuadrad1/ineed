@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D244D12F29BCFE200040AF6D /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244D12E29BCFE200040AF6D /* BusinessDetailView.swift */; };
+		D2BC75CC2B59CDF70083E4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC75CB2B59CDF70083E4E6 /* AppDelegate.swift */; };
+		D2BC75CE2B59CFD10083E4E6 /* UserNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC75CD2B59CFD10083E4E6 /* UserNotificationDelegate.swift */; };
 		D2E1FBA629BCCD7F00FD5517 /* ineedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBA529BCCD7F00FD5517 /* ineedApp.swift */; };
-		D2E1FBA829BCCD7F00FD5517 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBA729BCCD7F00FD5517 /* ContentView.swift */; };
+		D2E1FBA829BCCD7F00FD5517 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBA729BCCD7F00FD5517 /* HomeScreenView.swift */; };
 		D2E1FBAA29BCCD8200FD5517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E1FBA929BCCD8200FD5517 /* Assets.xcassets */; };
 		D2E1FBAD29BCCD8200FD5517 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E1FBAC29BCCD8200FD5517 /* Preview Assets.xcassets */; };
 		D2E1FBB729BCCD8300FD5517 /* ineedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBB629BCCD8300FD5517 /* ineedTests.swift */; };
 		D2E1FBC129BCCD8300FD5517 /* ineedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBC029BCCD8300FD5517 /* ineedUITests.swift */; };
 		D2E1FBC329BCCD8300FD5517 /* ineedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBC229BCCD8300FD5517 /* ineedUITestsLaunchTests.swift */; };
+		D2E1FBD229BCD96F00FD5517 /* ListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBD129BCD96F00FD5517 /* ListScreenView.swift */; };
+		D2E1FBD429BCDB7E00FD5517 /* LandScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBD329BCDB7E00FD5517 /* LandScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D244D12E29BCFE200040AF6D /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
+		D2BC75C92B558DFB0083E4E6 /* ineed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ineed.entitlements; sourceTree = "<group>"; };
+		D2BC75CA2B558E070083E4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D2BC75CB2B59CDF70083E4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2BC75CD2B59CFD10083E4E6 /* UserNotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationDelegate.swift; sourceTree = "<group>"; };
 		D2E1FBA229BCCD7F00FD5517 /* ineed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ineed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1FBA529BCCD7F00FD5517 /* ineedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ineedApp.swift; sourceTree = "<group>"; };
-		D2E1FBA729BCCD7F00FD5517 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2E1FBA729BCCD7F00FD5517 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		D2E1FBA929BCCD8200FD5517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E1FBAC29BCCD8200FD5517 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2E1FBB229BCCD8300FD5517 /* ineedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ineedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,8 @@
 		D2E1FBBC29BCCD8300FD5517 /* ineedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ineedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1FBC029BCCD8300FD5517 /* ineedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ineedUITests.swift; sourceTree = "<group>"; };
 		D2E1FBC229BCCD8300FD5517 /* ineedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ineedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2E1FBD129BCD96F00FD5517 /* ListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreenView.swift; sourceTree = "<group>"; };
+		D2E1FBD329BCDB7E00FD5517 /* LandScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,17 @@
 		D2E1FBA429BCCD7F00FD5517 /* ineed */ = {
 			isa = PBXGroup;
 			children = (
+				D2BC75CA2B558E070083E4E6 /* Info.plist */,
+				D2BC75C92B558DFB0083E4E6 /* ineed.entitlements */,
 				D2E1FBA529BCCD7F00FD5517 /* ineedApp.swift */,
-				D2E1FBA729BCCD7F00FD5517 /* ContentView.swift */,
+				D2E1FBA729BCCD7F00FD5517 /* HomeScreenView.swift */,
+				D2E1FBD329BCDB7E00FD5517 /* LandScreenView.swift */,
+				D2E1FBD129BCD96F00FD5517 /* ListScreenView.swift */,
+				D244D12E29BCFE200040AF6D /* BusinessDetailView.swift */,
 				D2E1FBA929BCCD8200FD5517 /* Assets.xcassets */,
 				D2E1FBAB29BCCD8200FD5517 /* Preview Content */,
+				D2BC75CB2B59CDF70083E4E6 /* AppDelegate.swift */,
+				D2BC75CD2B59CFD10083E4E6 /* UserNotificationDelegate.swift */,
 			);
 			path = ineed;
 			sourceTree = "<group>";
@@ -257,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E1FBA829BCCD7F00FD5517 /* ContentView.swift in Sources */,
+				D2BC75CC2B59CDF70083E4E6 /* AppDelegate.swift in Sources */,
+				D2BC75CE2B59CFD10083E4E6 /* UserNotificationDelegate.swift in Sources */,
+				D2E1FBD229BCD96F00FD5517 /* ListScreenView.swift in Sources */,
+				D2E1FBA829BCCD7F00FD5517 /* HomeScreenView.swift in Sources */,
 				D2E1FBA629BCCD7F00FD5517 /* ineedApp.swift in Sources */,
+				D244D12F29BCFE200040AF6D /* BusinessDetailView.swift in Sources */,
+				D2E1FBD429BCDB7E00FD5517 /* LandScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +438,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ineed/ineed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ineed/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ineed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,11 +468,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ineed/ineed.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ineed/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ineed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
