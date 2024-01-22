@@ -24,6 +24,23 @@ struct HomeScreenView: View {
                             Text("List")
                         }
                         .tag(2)
+                    VStack {
+                        Button("Notification Now") {
+                            Task {
+                                NotificationManager.shared.scheduleNotification(trigger: .now)
+                            }
+                        }
+                        Button("Notification 5 sec") {
+                            Task {
+                                NotificationManager.shared.scheduleNotification(trigger: .time)
+                            }
+                        }
+                    }
+                    .tabItem {
+                        Image(systemName: "circle.hexagongrid.circle.fill")
+                        Text("Options")
+                    }
+                    .tag(3)
                 }
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar{

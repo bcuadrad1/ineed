@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D244D12F29BCFE200040AF6D /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244D12E29BCFE200040AF6D /* BusinessDetailView.swift */; };
+		D25F91832B597CC1006C1229 /* UserNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25F91822B597CC1006C1229 /* UserNotificationManager.swift */; };
+		D2BBCB782B5EB347001E9142 /* Data + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BBCB772B5EB347001E9142 /* Data + Extension.swift */; };
 		D2BC75CC2B59CDF70083E4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC75CB2B59CDF70083E4E6 /* AppDelegate.swift */; };
 		D2BC75CE2B59CFD10083E4E6 /* UserNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC75CD2B59CFD10083E4E6 /* UserNotificationDelegate.swift */; };
 		D2E1FBA629BCCD7F00FD5517 /* ineedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1FBA529BCCD7F00FD5517 /* ineedApp.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		D244D12E29BCFE200040AF6D /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
+		D25F91822B597CC1006C1229 /* UserNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationManager.swift; sourceTree = "<group>"; };
+		D2BBCB772B5EB347001E9142 /* Data + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data + Extension.swift"; sourceTree = "<group>"; };
 		D2BC75C92B558DFB0083E4E6 /* ineed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ineed.entitlements; sourceTree = "<group>"; };
 		D2BC75CA2B558E070083E4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D2BC75CB2B59CDF70083E4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				D2E1FBAB29BCCD8200FD5517 /* Preview Content */,
 				D2BC75CB2B59CDF70083E4E6 /* AppDelegate.swift */,
 				D2BC75CD2B59CFD10083E4E6 /* UserNotificationDelegate.swift */,
+				D25F91822B597CC1006C1229 /* UserNotificationManager.swift */,
+				D2BBCB772B5EB347001E9142 /* Data + Extension.swift */,
 			);
 			path = ineed;
 			sourceTree = "<group>";
@@ -277,9 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BC75CC2B59CDF70083E4E6 /* AppDelegate.swift in Sources */,
+				D25F91832B597CC1006C1229 /* UserNotificationManager.swift in Sources */,
 				D2BC75CE2B59CFD10083E4E6 /* UserNotificationDelegate.swift in Sources */,
 				D2E1FBD229BCD96F00FD5517 /* ListScreenView.swift in Sources */,
 				D2E1FBA829BCCD7F00FD5517 /* HomeScreenView.swift in Sources */,
+				D2BBCB782B5EB347001E9142 /* Data + Extension.swift in Sources */,
 				D2E1FBA629BCCD7F00FD5517 /* ineedApp.swift in Sources */,
 				D244D12F29BCFE200040AF6D /* BusinessDetailView.swift in Sources */,
 				D2E1FBD429BCDB7E00FD5517 /* LandScreenView.swift in Sources */,

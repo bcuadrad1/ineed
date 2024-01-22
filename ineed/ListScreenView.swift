@@ -76,8 +76,6 @@ struct ListScreenView: View {
     }
     
     var body: some View {
-        let a = print("==========> ")
-        
         List(businesses, id: \.id) { business in
             NavigationLink(destination: BusinessDetailView(business: business)) {
                 HStack {
@@ -100,15 +98,6 @@ struct ListScreenView: View {
             }
         }
         .searchable(text: $searchText, prompt: "iNeed")
-        .onAppear{
-            let a = print("is appearing")
-        }
-        .onDisappear{
-            let a = print("is dissssssapearing")
-        }
-        .task {
-            let a = print("is a task")
-        }
 //        .onAppear {
 //            let url = URL(string: "https://96b7-186-112-204-119.ngrok.io/business/api/list")!
 //            var request = URLRequest(url: url)

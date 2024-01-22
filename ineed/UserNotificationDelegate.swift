@@ -2,23 +2,26 @@ import Foundation
 import UserNotifications
 
 class UserNotificationCenterDelegate: NSObject, UNUserNotificationCenterDelegate {
-    
-    override init() {
-        super.init()
-    }
 
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler handler: @escaping () -> Void) {
-        print("didReceive notification")
-        print("\(response.notification.request.content.userInfo)")
+        print("notification received")
 
         handler()
     }
 
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler handler: @escaping (UNNotificationPresentationOptions) -> Void) {
         print("notification will be presented")
-        print("\(notification.request.content.userInfo)")
+        
+        let userInfo = notification.request.content.userInfo
+        if let isCustom =  userInfo["is_custom"] as? Bool, isCustom {
+            print("is custom \(isCustom)")
+            
+            NotificationManager.shared.scheduleNotification(trigger: .now)
+            handler([])
+        }
         
         handler( [.alert, .badge, .sound])
     }
 }
+
 
