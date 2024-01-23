@@ -89,6 +89,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2BBCB842B5FFF59001E9142 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D2BBCB772B5EB347001E9142 /* Data + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D2BBCB852B5FFFC1001E9142 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D244D12E29BCFE200040AF6D /* BusinessDetailView.swift */,
+				D2E1FBA729BCCD7F00FD5517 /* HomeScreenView.swift */,
+				D2E1FBD329BCDB7E00FD5517 /* LandScreenView.swift */,
+				D2E1FBD129BCD96F00FD5517 /* ListScreenView.swift */,
+				D2BBCB822B5FFBB6001E9142 /* OptionScreenView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		D2BBCB862B6000F6001E9142 /* User Notification */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC75CD2B59CFD10083E4E6 /* UserNotificationDelegate.swift */,
+				D25F91822B597CC1006C1229 /* UserNotificationManager.swift */,
+			);
+			path = "User Notification";
+			sourceTree = "<group>";
+		};
 		D2E1FB9929BCCD7E00FD5517 = {
 			isa = PBXGroup;
 			children = (
@@ -112,20 +141,15 @@
 		D2E1FBA429BCCD7F00FD5517 /* ineed */ = {
 			isa = PBXGroup;
 			children = (
-				D2BC75CA2B558E070083E4E6 /* Info.plist */,
+				D2BC75CB2B59CDF70083E4E6 /* AppDelegate.swift */,
+				D2E1FBA929BCCD8200FD5517 /* Assets.xcassets */,
+				D2BBCB842B5FFF59001E9142 /* Extension */,
 				D2BC75C92B558DFB0083E4E6 /* ineed.entitlements */,
 				D2E1FBA529BCCD7F00FD5517 /* ineedApp.swift */,
-				D2E1FBA729BCCD7F00FD5517 /* HomeScreenView.swift */,
-				D2BBCB822B5FFBB6001E9142 /* OptionScreenView.swift */,
-				D2E1FBD329BCDB7E00FD5517 /* LandScreenView.swift */,
-				D2E1FBD129BCD96F00FD5517 /* ListScreenView.swift */,
-				D244D12E29BCFE200040AF6D /* BusinessDetailView.swift */,
-				D2E1FBA929BCCD8200FD5517 /* Assets.xcassets */,
+				D2BC75CA2B558E070083E4E6 /* Info.plist */,
 				D2E1FBAB29BCCD8200FD5517 /* Preview Content */,
-				D2BC75CB2B59CDF70083E4E6 /* AppDelegate.swift */,
-				D2BC75CD2B59CFD10083E4E6 /* UserNotificationDelegate.swift */,
-				D25F91822B597CC1006C1229 /* UserNotificationManager.swift */,
-				D2BBCB772B5EB347001E9142 /* Data + Extension.swift */,
+				D2BBCB852B5FFFC1001E9142 /* Screen */,
+				D2BBCB862B6000F6001E9142 /* User Notification */,
 			);
 			path = ineed;
 			sourceTree = "<group>";
