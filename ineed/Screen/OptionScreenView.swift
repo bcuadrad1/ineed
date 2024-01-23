@@ -15,11 +15,6 @@ struct OptionScreenView: View {
                     NotificationManager.shared.scheduleNotification(trigger: .now)
                 }
             }
-            Button("Notification 5 sec") {
-                Task {
-                    NotificationManager.shared.scheduleNotification(trigger: .time)
-                }
-            }
         }
     }
 }
