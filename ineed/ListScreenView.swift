@@ -62,17 +62,6 @@ struct ListScreenView: View {
                 return containsName || containsDescription
             }
         }
-
-//        if searchText.isEmpty {
-//            return businessFromWeb
-//        } else {
-//            return businessFromWeb.filter { business in
-//                let containsName = business.name.lowercased().contains(searchText.lowercased())
-//                let containsDescription = business.description.lowercased().contains(searchText.lowercased())
-//
-//                return containsName || containsDescription
-//            }
-//        }
     }
     
     var body: some View {
@@ -98,37 +87,6 @@ struct ListScreenView: View {
             }
         }
         .searchable(text: $searchText, prompt: "iNeed")
-//        .onAppear {
-//            let url = URL(string: "https://96b7-186-112-204-119.ngrok.io/business/api/list")!
-//            var request = URLRequest(url: url)
-//            request.httpMethod = "GET"
-//            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-//
-//            URLSession.shared.dataTask(with: request) { data, response, error in
-//                if let error = error {
-//                    print("error: \(error)")
-//                }
-//
-//                guard let data = data else {
-//                    print("error on data: \(error)")
-//                    return
-//                }
-//
-//                DispatchQueue.main.async {
-//                    let response = String(data: data, encoding: .utf8)!
-//                    let data = response.data(using: .utf8)
-//                    let json = try! JSONSerialization.jsonObject(with: data! as Data, options: [])
-//                    let dict = json as! [[String: Any]]
-//
-//                    for item in dict {
-//                        let phone = item["phone"] as! String
-//                        let business = Business(name: item["name"] as! String, description: item["description"] as! String, telephone: item["phone"] as! String, img: item["img"] as! String, stars: 5, category: .home)
-//
-//                        self.businessFromWeb.append(business)
-//                    }
-//                }
-//            }.resume()
-//        }
 
     }
 }
